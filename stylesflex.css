@@ -1,8 +1,12 @@
 * {
-    margin: 0;
+    
     padding: 0;
     box-sizing: border-box;
     
+}
+
+body {
+    background-color: bisque;
 }
 
 .menu-container {
@@ -80,6 +84,17 @@ p {
 
 footer {
     background-color: aquamarine;
-    justify-content: right;
+   
 
 }
+
+.another {
+    color: #fff;
+    background-color: #5995DA; /* blue */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    
+}
+
