@@ -38,13 +38,30 @@ button {
     color: white;
     padding-bottom: 20px 0px;
     border-color: blue;
-    margin: -10px 37%;
     border: dotted;
     padding-top: 20px;
     box-sizing: border-box;
     background-color: rgb(88, 88, 204);
+    width: 300px;
+    margin-left: 150px;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+
+   
+    background-color: peachpuff;
+    border: 4px solid blue;
+    height: 100 px;
+    flex: 0.5;
+    border: 10px 10px;
+    padding: 10px;
+    margin: 10px 10px;
+    width: 150px;
+}
 
 .parent, .child {
     background-color: brown;
