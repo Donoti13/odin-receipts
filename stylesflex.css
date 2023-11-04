@@ -11,7 +11,7 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 2%;
 }
 
 .menu {
@@ -57,6 +57,8 @@
     object-fit: cover;
     padding: 1%;
     align-items: center;
+    border-radius: 5%;
+    margin-bottom: 2%;
 }
 
 .img {
@@ -68,10 +70,10 @@ p {
     background-color: rgb(115, 199, 188);
     padding: 2%;
     border: blue;
-    border-radius: 2%;
+    border-radius: 10%;
     border-color: #5995DA;
-    border-width: 20px;
-    margin-bottom: 5%;
+    border-width: 5px;
+    margin-bottom: 2%;
     margin-left:auto;
     
 }
@@ -81,4 +83,3 @@ footer {
     justify-content: right;
 
 }
-
