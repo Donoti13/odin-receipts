@@ -58,6 +58,7 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
     border: 1px solid darkblue;
+    gap: 4px;
  
 }
 
@@ -66,10 +67,12 @@ body {
     height: 100%;
     object-fit: cover;
     border: 1px solid darkblue;
+    
 }
 
 .photo-grid > .big {
     flex: 1 1 250px;
+    
 }
 
 
@@ -89,6 +92,47 @@ p {
     border: 4px solid darkblue;
     
 }
+
+p {
+    padding: 1em;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
+
+
+}
+
+.footerfooter {
+    background-color: rgb(115, 199, 188);
+    padding: 2%;
+    border: blue;
+    border-radius: 10%;
+    border-color: #5995DA;
+    border-width: 5px;
+    margin-bottom: 2%;
+    margin-left:auto;
+    border: 4px solid darkblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerone {
+    
+justify-content: center;
+    
+}
+
+.list {
+    margin-top: -3%;
+
+
+}
+
+
 
 footer {
     background-color: aquamarine;
